@@ -1,3 +1,0 @@
-# go_education
-
-тест
