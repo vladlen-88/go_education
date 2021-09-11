@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	c := conf_reader.ReadFlag()
+	c := conf_reader.ReadFromFile()
 	fmt.Println(*c.Port)
 	fmt.Println(*c.Dburl)
 	fmt.Println(*c.JaegerUrl)
